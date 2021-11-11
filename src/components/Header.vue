@@ -71,6 +71,7 @@ export default {
   background-color: silver;
 }
 .my_cont_header {
+  background-color: rgb(165, 165, 165);
   display: flex;
   margin: auto;
   max-width: 1140px;
@@ -87,7 +88,9 @@ export default {
   padding: 10px;
 }
 .my_navbar ul li a {
+  color: black;
   font-size: 13px;
+  text-decoration: none;
 }
 </style>
 
