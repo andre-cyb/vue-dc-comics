@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="my_header">
-      <img src="../img/dc-logo.png" alt="" />
+  <div class="my_header">
+    <div class="my_cont_header">
+      <img class="logo" src="../img/dc-logo.png" alt="" />
       <nav class="my_navbar">
         <ul>
           <li v-for="(item, i) in navBarItems" :key="i">
@@ -70,12 +70,24 @@ export default {
 .my_header {
   background-color: silver;
 }
+.my_cont_header {
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+}
+.logo {
+  width: 70px;
+}
 .my_navbar {
   display: inline-block;
+  margin-left: auto;
 }
 .my_navbar ul li {
   display: inline-block;
   padding: 10px;
+}
+.my_navbar ul li a {
+  font-size: 13px;
 }
 </style>
 
