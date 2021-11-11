@@ -31,45 +31,32 @@
         <div class="my_col_5 container_menu">
           <div class="my_col_5">
             <ul class="list_style">
-              <li class="menu_title_footer">DC COMICS</li>
-              <li><a href="#">characters</a></li>
-              <li><a href="#">Comics</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">TV</a></li>
-              <li><a href="#">Games</a></li>
-              <li><a href="#">Videos</a></li>
-              <li><a href="#">News</a></li>
+              <li class="menu_title_footer">{{ dcComicMenu[0].title }}</li>
+              <li v-for="(item, i) in dcComicMenu" :key="i">
+                <a href="item.href">{{ item.text }}</a>
+              </li>
             </ul>
             <ul class="list_style">
-              <li class="menu_title_footer">SHOP</li>
-              <li><a href="#">Shop DC</a></li>
-              <li><a href="#">Shop DC Collectibles</a></li>
+              <li class="menu_title_footer">{{ shopMenu[0].title }}</li>
+              <li v-for="(item, i) in shopMenu" :key="i">
+                <a href="item.href">{{ item.text }}</a>
+              </li>
             </ul>
           </div>
           <div class="my_col_5">
             <ul class="list_style">
-              <li class="menu_title_footer">DC</li>
-              <li><a href="#">Terms Of Use</a></li>
-              <li><a href="#">Privacy Policy (New)</a></li>
-              <li><a href="#">Ad Choises</a></li>
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Subscriptions</a></li>
-              <li><a href="#">Talent Workshops</a></li>
-              <li><a href="#">CPSC Certificates</a></li>
-              <li><a href="#">Ratings</a></li>
-              <li><a href="#">Shop Help</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li class="menu_title_footer">{{ dcMenu[0].title }}</li>
+              <li v-for="(item, i) in dcMenu" :key="i">
+                <a href="item.href">{{ item.text }}</a>
+              </li>
             </ul>
           </div>
           <div class="my_col_5">
             <ul class="list_style">
-              <li class="menu_title_footer">SITES</li>
-              <li><a href="#">DC</a></li>
-              <li><a href="#">MAD Magazine</a></li>
-              <li><a href="#">DC Kids</a></li>
-              <li><a href="#">DC Universe</a></li>
-              <li><a href="#">DC Power Visa</a></li>
+              <li class="menu_title_footer">{{ sitesMenu[0].title }}</li>
+              <li v-for="(item, i) in sitesMenu" :key="i">
+                <a href="item.href">{{ item.text }}</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -95,15 +82,149 @@
 <script>
 export default {
   name: "Footer",
+  data() {
+    return {
+      dcComicMenu: [
+        {
+          title: "DC COMICS",
+          text: "",
+          href: "",
+        },
+        {
+          text: "characters",
+          href: "#",
+        },
+        {
+          text: "Comics",
+          href: "#",
+        },
+        {
+          text: "Movies",
+          href: "#",
+        },
+        {
+          text: "Tv",
+          href: "#",
+        },
+        {
+          text: "Games",
+          href: "#",
+        },
+        {
+          text: "Videos",
+          href: "#",
+        },
+        {
+          text: "News",
+          href: "#",
+        },
+      ],
+      shopMenu: [
+        {
+          title: "SHOP",
+          text: "",
+          href: "",
+        },
+        {
+          text: "Shop DC",
+          href: "#",
+        },
+        {
+          text: "Shop DC Collectibles",
+          href: "#",
+        },
+      ],
+      dcMenu: [
+        {
+          title: "DC",
+          text: "",
+          href: "",
+        },
+        {
+          text: "Terms Of Use",
+          href: "#",
+        },
+        {
+          text: "Privacy Policy (New)",
+          href: "#",
+        },
+        {
+          text: "Ad Choises",
+          href: "#",
+        },
+        {
+          text: "Advertising",
+          href: "#",
+        },
+        {
+          text: "Jobs",
+          href: "#",
+        },
+        {
+          text: "Subscriptions",
+          href: "#",
+        },
+        {
+          text: "Talent Workshops",
+          href: "#",
+        },
+        {
+          text: "CPSC Certificates",
+          href: "#",
+        },
+        {
+          text: "Ratings",
+          href: "#",
+        },
+        {
+          text: "Shop Help",
+          href: "#",
+        },
+        {
+          text: "Contact Us",
+          href: "#",
+        },
+      ],
+      sitesMenu: [
+        {
+          title: "SITES",
+          text: "",
+          href: "",
+        },
+        {
+          text: "DC",
+          href: "#",
+        },
+        {
+          text: "MAD Magazine",
+          href: "#",
+        },
+        {
+          text: "DC Kids",
+          href: "#",
+        },
+        {
+          text: "DC Universe",
+          href: "#",
+        },
+        {
+          text: "DC Power Visa",
+          href: "#",
+        },
+      ],
+    };
+  },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style>
+/* @import "./styles/footer"; */
+/* FOOTER in CSS*/
 /* .my_footer {
   background-color: blanchedalmond;
 } */
-
+/* *********** */
 /* BLUE SECTION */
 /* .my_cont_bluebar {
   margin: auto;

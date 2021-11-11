@@ -67,7 +67,7 @@ export default {
 
 
 <style>
-/* @import "../styles/header"; */
+/* @import "./styles/header"; */
 
 /* .my_header {
   padding: 15px 0px 15px 0px;
