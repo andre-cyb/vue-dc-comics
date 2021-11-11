@@ -103,16 +103,13 @@ export default {
 /* .my_footer {
   background-color: blanchedalmond;
 } */
+
 /* BLUE SECTION */
 /* .my_cont_bluebar {
   margin: auto;
   max-width: 1140px;
 }
-.my_cont_footer {
-  display: flex;
-  margin: auto;
-  max-width: 1140px;
-}
+
 .blue_section .my_cont_bluebar ul {
   display: flex;
   justify-content: space-between;
@@ -145,6 +142,11 @@ export default {
   object-fit: cover;
 }
 
+.my_cont_footer {
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+}
 .container_menu {
   display: flex;
   padding: 20px 0px 20px 0px;
