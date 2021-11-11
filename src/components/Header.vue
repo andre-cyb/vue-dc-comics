@@ -68,7 +68,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .my_header {
-  padding: 10px 0px 10px 0px;
+  padding: 15px 0px 15px 0px;
   background-color: rgb(226, 226, 226);
 }
 .my_cont_header {
@@ -89,7 +89,7 @@ export default {
 }
 .my_navbar ul li a {
   color: black;
-  font-size: 13px;
+  font-size: 11px;
   text-decoration: none;
 }
 </style>
