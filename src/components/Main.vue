@@ -15,10 +15,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .my_main {
+  padding: 10px 0px 10px 0px;
   background-color: rgb(0, 0, 0);
 }
 .my_cont_main {
-  background-color: rgb(26, 26, 26);
   display: flex;
   margin: auto;
   max-width: 1140px;

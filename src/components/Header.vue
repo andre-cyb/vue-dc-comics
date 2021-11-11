@@ -68,10 +68,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .my_header {
-  background-color: silver;
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(226, 226, 226);
 }
 .my_cont_header {
-  background-color: rgb(165, 165, 165);
   display: flex;
   margin: auto;
   max-width: 1140px;
