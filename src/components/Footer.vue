@@ -28,8 +28,8 @@
     </div>
     <div class="menu_section">
       <div class="my_cont_footer layout_menu_footer">
-        <div class="my_col_4 container_menu">
-          <div class="my_col_4">
+        <div class="my_col_5 container_menu">
+          <div class="my_col_5">
             <ul class="list_style">
               <li class="menu_title_footer">DC COMICS</li>
               <li><a href="#">characters</a></li>
@@ -46,7 +46,7 @@
               <li><a href="#">Shop DC Collectibles</a></li>
             </ul>
           </div>
-          <div class="my_col_4">
+          <div class="my_col_5">
             <ul class="list_style">
               <li class="menu_title_footer">DC</li>
               <li><a href="#">Terms Of Use</a></li>
@@ -62,7 +62,7 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
-          <div class="my_col_4">
+          <div class="my_col_5">
             <ul class="list_style">
               <li class="menu_title_footer">SITES</li>
               <li><a href="#">DC</a></li>
@@ -73,7 +73,7 @@
             </ul>
           </div>
         </div>
-        <div class="dc_logo_bg my_col_8"></div>
+        <div class="dc_logo_bg my_col_7"></div>
       </div>
     </div>
     <div class="social_section">
@@ -144,12 +144,10 @@ export default {
   background-image: url(../img/footer-bg.jpg);
   object-fit: cover;
 }
-.layout_menu_footer {
-  display: flex;
-}
 
 .container_menu {
   display: flex;
+  padding: 20px 0px 20px 0px;
 }
 
 .dc_logo_bg {
@@ -157,11 +155,11 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
-.my_col_4 {
-  width: calc((100% / 12) * 4);
+.my_col_5 {
+  width: calc((100% / 12) * 5);
 }
-.my_col_8 {
-  width: calc((100% / 12) * 8);
+.my_col_7 {
+  width: calc((100% / 12) * 7);
 }
 .my_col_12 {
   width: calc((100% / 12) * 12);
@@ -170,13 +168,16 @@ export default {
   list-style: none;
   padding: 0px;
 }
+.list_style li {
+  padding-bottom: 4px;
+}
 .list_style a {
-  color: rgb(255, 255, 255);
-  font-size: 13px;
+  color: #959595;
+  font-size: 11px;
   text-decoration: none;
 }
 .menu_title_footer {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 10px;
   color: white;
 }
@@ -188,6 +189,7 @@ export default {
   margin: auto;
   max-width: 1140px;
   align-items: center;
+  padding: 15px 0px 15px 0px;
 }
 .social_section {
   background-color: #303030;
@@ -200,10 +202,14 @@ export default {
 }
 .social_section img {
   vertical-align: middle;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .btn_footer {
+  padding: 10px;
+  color: white;
   height: 40px;
+  background-color: #303030;
+  border: 2px solid #0282f9;
 }
 .social_cont {
   display: inline-block;
