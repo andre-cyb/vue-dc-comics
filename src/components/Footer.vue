@@ -34,42 +34,42 @@
               <li class="menu_title_footer">DC COMICS</li>
               <li><a href="#">characters</a></li>
               <li><a href="#">Comics</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">News</a></li>
             </ul>
             <ul class="list_style">
               <li class="menu_title_footer">SHOP</li>
-              <li><a href="#">characters</a></li>
-              <li><a href="#">Comics</a></li>
+              <li><a href="#">Shop DC</a></li>
+              <li><a href="#">Shop DC Collectibles</a></li>
             </ul>
           </div>
           <div class="my_col_4">
             <ul class="list_style">
               <li class="menu_title_footer">DC</li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
+              <li><a href="#">Terms Of Use</a></li>
+              <li><a href="#">Privacy Policy (New)</a></li>
+              <li><a href="#">Ad Choises</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Subscriptions</a></li>
+              <li><a href="#">Talent Workshops</a></li>
+              <li><a href="#">CPSC Certificates</a></li>
+              <li><a href="#">Ratings</a></li>
+              <li><a href="#">Shop Help</a></li>
+              <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
           <div class="my_col_4">
             <ul class="list_style">
               <li class="menu_title_footer">SITES</li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
-              <li><a href="#">asdasd</a></li>
+              <li><a href="#">DC</a></li>
+              <li><a href="#">MAD Magazine</a></li>
+              <li><a href="#">DC Kids</a></li>
+              <li><a href="#">DC Universe</a></li>
+              <li><a href="#">DC Power Visa</a></li>
             </ul>
           </div>
         </div>
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="social_section">
-      <div class="my_cont_footer">
+      <div class="my_cont_footer_social">
         <button class="btn_footer">SIGN-UP-NOW!</button>
         <div class="social_cont">
           <h3>FOLLOW US</h3>
@@ -112,7 +112,6 @@ export default {
   display: flex;
   margin: auto;
   max-width: 1140px;
-  align-items: center;
 }
 .blue_section .my_cont_bluebar ul {
   display: flex;
@@ -184,7 +183,12 @@ export default {
 /* *********************** */
 
 /* SOCIAL SECTION */
-
+.my_cont_footer_social {
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+  align-items: center;
+}
 .social_section {
   background-color: #303030;
 }
