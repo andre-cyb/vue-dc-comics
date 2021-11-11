@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "styles/header";
+@import "styles/main";
+@import "styles/footer";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   box-sizing: border-box;

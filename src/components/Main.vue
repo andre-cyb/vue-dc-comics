@@ -14,7 +14,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.my_main {
+@import "/styles/main"; /* .my_main {
   padding: 20px 0px 20px 0px;
   background-color: rgb(0, 0, 0);
 }
@@ -25,5 +25,5 @@ export default {
 }
 .main_title {
   color: white;
-}
+} */
 </style>

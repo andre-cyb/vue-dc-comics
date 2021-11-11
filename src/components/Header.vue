@@ -65,9 +65,11 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style>
-.my_header {
+/* @import "../styles/header"; */
+
+/* .my_header {
   padding: 15px 0px 15px 0px;
   background-color: rgb(226, 226, 226);
 }
@@ -91,6 +93,6 @@ export default {
   color: black;
   font-size: 11px;
   text-decoration: none;
-}
+} */
 </style>
 

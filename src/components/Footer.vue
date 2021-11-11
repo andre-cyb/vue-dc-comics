@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="menu_section">
-      <div class="my_cont_footer layout_menu_footer">
+      <div class="my_cont_footer">
         <div class="my_col_5 container_menu">
           <div class="my_col_5">
             <ul class="list_style">
@@ -100,11 +100,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.my_footer {
+/* .my_footer {
   background-color: blanchedalmond;
-}
+} */
 /* BLUE SECTION */
-.my_cont_bluebar {
+/* .my_cont_bluebar {
   margin: auto;
   max-width: 1140px;
 }
@@ -136,11 +136,11 @@ export default {
   font-size: 13px;
   text-decoration: none;
   padding-left: 10px;
-}
+} */
 /* ************ */
 
 /* MENU SECTION */
-.menu_section {
+/* .menu_section {
   background-image: url(../img/footer-bg.jpg);
   object-fit: cover;
 }
@@ -161,9 +161,6 @@ export default {
 .my_col_7 {
   width: calc((100% / 12) * 7);
 }
-.my_col_12 {
-  width: calc((100% / 12) * 12);
-}
 .list_style {
   list-style: none;
   padding: 0px;
@@ -180,11 +177,11 @@ export default {
   font-size: 18px;
   padding-bottom: 10px;
   color: white;
-}
+} */
 /* *********************** */
 
 /* SOCIAL SECTION */
-.my_cont_footer_social {
+/* .my_cont_footer_social {
   display: flex;
   margin: auto;
   max-width: 1140px;
@@ -214,6 +211,6 @@ export default {
 .social_cont {
   display: inline-block;
   margin-left: auto;
-}
+} */
 /* *********************** */
 </style>
