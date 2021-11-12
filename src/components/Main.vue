@@ -1,7 +1,11 @@
 <template>
   <div class="my_main">
     <div class="my_cont_main">
-      <SingleCard></SingleCard>
+      <div class="current_series">CURRENT SERIES</div>
+      <!-- <SingleCard></SingleCard> -->
+      <!-- <div class="cont_btn">
+        <button class="btn_load_more">LOAD MORE</button>
+      </div> -->
     </div>
   </div>
 </template>

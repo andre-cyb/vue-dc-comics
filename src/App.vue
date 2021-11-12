@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
-    <!-- <Main></Main> -->
+    <Main></Main>
     <SingleCard></SingleCard>
     <Footer></Footer>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import Header from "./components/Header.vue";
-/* import Main from "./components/Main.vue"; */
+import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
 import SingleCard from "./components/SingleCard.vue";
 
@@ -17,7 +17,7 @@ export default {
   name: "App",
   components: {
     Header,
-    /* Main, */
+    Main,
     Footer,
     SingleCard,
   },

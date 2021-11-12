@@ -10,9 +10,6 @@
         </div>
       </div>
     </div>
-    <div class="cont_btn">
-      <button class="btn_load_more">LOAD MORE</button>
-    </div>
   </div>
 </template>
 
@@ -116,7 +113,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 .main_section {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(0, 0, 0);
   .cont_card_section {
     max-width: 1140px;
     margin: auto;
@@ -148,17 +145,6 @@ export default {
           text-align: left;
         }
       }
-    }
-  }
-  .cont_btn {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    .btn_load_more {
-      padding: 10px 40px 10px 40px;
-      color: white;
-      background-color: royalblue;
-      border: none;
     }
   }
 }
