@@ -1,7 +1,7 @@
 <template>
   <div class="my_header">
     <div class="my_cont_header">
-      <img class="logo" src="../img/dc-logo.png" alt="" />
+      <img class="logo" src="@/assets/dc-logo.png" alt="" />
       <nav class="my_navbar">
         <ul>
           <li v-for="(item, i) in navBarItems" :key="i">

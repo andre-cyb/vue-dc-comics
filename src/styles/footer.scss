@@ -28,7 +28,7 @@
         }
     }
     .menu_section{
-        background-image: url(img/footer-bg.jpg);  
+        background-image: url(assets/footer-bg.jpg);  
         object-fit: cover;
         .my_cont_footer{
             display: flex;
@@ -62,7 +62,7 @@
                 }
             }
             .dc_logo_bg {
-                background-image: url(img/dc-logo-bg.png);  
+                background-image: url(assets/dc-logo-bg.png);  
                 background-position: center;
                 background-repeat: no-repeat;
                 &.my_col_7 {

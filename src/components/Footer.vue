@@ -3,26 +3,30 @@
     <div class="blue_section">
       <div class="my_cont_bluebar">
         <ul>
-          <li>
-            <img src="../img/buy-comics-digital-comics.png" alt="" />
+          <li v-for="(item, i) in blueBarItems" :key="i">
+            <img :src= require(`@/assets/${item.src}`) alt="" />
+            <a href="">{{ item.text }}</a>
+          </li>
+          <!-- <li>
+            <img src="@/assets/buy-comics-digital-comics.png" alt="" />
             <a href="">DIGITAL COMICS</a>
           </li>
           <li>
-            <img src="../img/buy-comics-merchandise.png" alt="" />
+            <img src="@/assets/buy-comics-merchandise.png" alt="" />
             <a href="">DC MERCHANDISE</a>
           </li>
           <li>
-            <img src="../img/buy-comics-shop-locator.png" alt="" />
+            <img src="@/assets/buy-comics-shop-locator.png" alt="" />
             <a href="">SUBSCRIPTION</a>
           </li>
           <li>
-            <img src="../img/buy-comics-subscriptions.png" alt="" />
+            <img src="@/assets/buy-comics-subscriptions.png" alt="" />
             <a href="">COMIC SHOP LOCATOR</a>
           </li>
           <li>
-            <img src="../img/buy-dc-power-visa.svg" alt="" />
+            <img src="@/assets/buy-dc-power-visa.svg" alt="" />
             <a href="">DC POWER VISA</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -68,11 +72,11 @@
         <button class="btn_footer">SIGN-UP-NOW!</button>
         <div class="social_cont">
           <h3>FOLLOW US</h3>
-          <img src="../img/footer-facebook.png" alt="" />
-          <img src="../img/footer-twitter.png" alt="" />
-          <img src="../img/footer-youtube.png" alt="" />
-          <img src="../img/footer-pinterest.png" alt="" />
-          <img src="../img/footer-periscope.png" alt="" />
+          <img src="@/assets/footer-facebook.png" alt="" />
+          <img src="@/assets/footer-twitter.png" alt="" />
+          <img src="@/assets/footer-youtube.png" alt="" />
+          <img src="@/assets/footer-pinterest.png" alt="" />
+          <img src="@/assets/footer-periscope.png" alt="" />
         </div>
       </div>
     </div>
@@ -210,6 +214,28 @@ export default {
         {
           text: "DC Power Visa",
           href: "#",
+        },
+      ],
+      blueBarItems: [
+        {
+          src: "buy-comics-digital-comics.png",
+          text: "DIGITAL COMICS",
+        },
+        {
+          src: "buy-comics-merchandise.png",
+          text: "DC MERCHANDISE",
+        },
+        {
+          src: "buy-comics-shop-locator.png",
+          text: "SUBSCRIPTION",
+        },
+        {
+          src: "buy-comics-subscriptions.png",
+          text: "COMIC SHOP LOCATOR",
+        },
+        {
+          src: "buy-dc-power-visa.svg",
+          text: "DC POWER VISA",
         },
       ],
     };
