@@ -1,14 +1,18 @@
 <template>
   <div class="my_main">
     <div class="my_cont_main">
-      <h2 class="main_title">{ CONTENT GOES HERE }</h2>
+      <SingleCard></SingleCard>
     </div>
   </div>
 </template>
 
 <script>
+import SingleCard from "./SingleCard.vue";
 export default {
   name: "Main",
+  component: {
+    SingleCard,
+  },
 };
 </script>
 
