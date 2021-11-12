@@ -4,7 +4,7 @@
       <div class="my_cont_bluebar">
         <ul>
           <li v-for="(item, i) in blueBarItems" :key="i">
-            <img :src= require(`@/assets/${item.src}`) alt="" />
+            <img 2src="" alt="" />
             <a href="">{{ item.text }}</a>
           </li>
           <!-- <li>
