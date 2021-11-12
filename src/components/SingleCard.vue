@@ -124,10 +124,11 @@ export default {
       margin: auto;
       display: flex;
       flex-wrap: wrap;
+      padding: 10px 0px 10px 0px;
 
       .card_cont {
-        padding: 10px;
-        width: calc((100% / 6) - 20px);
+        padding: 15px;
+        width: calc((100% / 6) - 30px);
 
         .cont_img {
           img {
@@ -140,9 +141,10 @@ export default {
         h5 {
           color: white;
           margin: 0%;
-          padding-top: 5px;
-          padding-bottom: 10px;
+          padding-top: 10px;
+          padding-bottom: 15px;
           text-align: left;
+          font-weight: 900; // da cambiare
         }
       }
     }

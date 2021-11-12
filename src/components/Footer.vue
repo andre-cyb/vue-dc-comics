@@ -4,29 +4,9 @@
       <div class="my_cont_bluebar">
         <ul>
           <li v-for="(item, i) in blueBarItems" :key="i">
-            <img src="" alt="" />
+            <img :src="require(`@/assets/${item.src}`)" alt="" />
             <a href="">{{ item.text }}</a>
           </li>
-          <!-- <li>
-            <img src="@/assets/buy-comics-digital-comics.png" alt="" />
-            <a href="">DIGITAL COMICS</a>
-          </li>
-          <li>
-            <img src="@/assets/buy-comics-merchandise.png" alt="" />
-            <a href="">DC MERCHANDISE</a>
-          </li>
-          <li>
-            <img src="@/assets/buy-comics-shop-locator.png" alt="" />
-            <a href="">SUBSCRIPTION</a>
-          </li>
-          <li>
-            <img src="@/assets/buy-comics-subscriptions.png" alt="" />
-            <a href="">COMIC SHOP LOCATOR</a>
-          </li>
-          <li>
-            <img src="@/assets/buy-dc-power-visa.svg" alt="" />
-            <a href="">DC POWER VISA</a>
-          </li> -->
         </ul>
       </div>
     </div>
