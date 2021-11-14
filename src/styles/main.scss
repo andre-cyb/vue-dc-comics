@@ -1,3 +1,5 @@
+@import "@/styles/singleCard.scss";
+
 .my_main{
     /* padding: 20px 0px 20px 0px; */
     background-image: url("assets/jumbotron.jpg");
@@ -11,25 +13,38 @@
         height: 100%;
         .current_series{
             color: white;
+            font-size: 27px;
             width: 200px;
             position: absolute;
             bottom: 0%;
             left: 0%;
             background-color: #0282f9;
-            padding: 15px;
+            padding: 10px;
             text-align: center;
             transform: translateY(50%)
         }
-        /*.cont_btn {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 30px;
-            .btn_load_more {
-              padding: 10px 40px 10px 40px;
-              color: white;
-              background-color: royalblue;
-              border: none;
-            }
-          } */
     }
+}
+.card_cont_black{
+  background-color: black;
+  padding-top: 30px;
+  .card_section{
+    max-width: 1140px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    .cont_btn {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+      .btn_load_more {
+        background-color: royalblue;
+        border: none;
+        padding: 10px 40px 10px 40px;
+        a{
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }

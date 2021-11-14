@@ -2,7 +2,7 @@
   <div id="app">
     <Header></Header>
     <Main></Main>
-    <SingleCard></SingleCard>
+    <!-- <SingleCard></SingleCard> -->
     <Footer></Footer>
   </div>
 </template>
@@ -11,7 +11,7 @@
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
-import SingleCard from "./components/SingleCard.vue";
+/* import SingleCard from "./components/SingleCard.vue"; */
 
 export default {
   name: "App",
@@ -19,9 +19,11 @@ export default {
     Header,
     Main,
     Footer,
-    SingleCard,
+    /*  SingleCard, */
   },
-  data() {},
+  data() {
+    return {};
+  },
 };
 </script>
 
@@ -29,15 +31,13 @@ export default {
 @import "styles/header";
 @import "styles/main";
 @import "styles/footer";
+/* @import "styles/singleCard";
+@import "styles/global"; */
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50; */
 }
 </style>
