@@ -23,7 +23,7 @@
           ></SingleCard>
         </div>
         <div class="cont_btn">
-          <button class="btn_load_more"><a href="#">LOAD MORE</a></button>
+          <button class="btn_load_more"><span href="#">LOAD MORE</span></button>
         </div>
       </div>
     </div>

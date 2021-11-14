@@ -30,7 +30,8 @@ export default {
 @import "styles/footer";
 
 #app {
-  font-family: "PT Sans Narrow", sans-serif;
+  /* font-family: "PT Sans Narrow", sans-serif; */
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;

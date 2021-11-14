@@ -49,7 +49,7 @@
     </div>
     <div class="social_section">
       <div class="my_cont_footer_social">
-        <button class="btn_footer">SIGN-UP-NOW!</button>
+        <button class="btn_footer"><span>SIGN-UP-NOW!</span></button>
         <div class="social_cont">
           <h3>FOLLOW US</h3>
           <img src="@/assets/footer-facebook.png" alt="" />

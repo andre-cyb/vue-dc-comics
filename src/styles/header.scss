@@ -1,10 +1,11 @@
+@import "variables";
 .my_header{
     padding: 15px 0px 15px 0px;
     background-color: rgb(226, 226, 226);
     .my_cont_header{
         display: flex;
         margin: auto;
-        max-width: 1140px;
+        max-width: $container-width;
         .logo{
             width: 70px;
         }
@@ -17,8 +18,9 @@
                     padding: 10px;
                     a{
                         color: black;
-                        font-size: 16px;
+                        font-size: $font-size;
                         text-decoration: none;
+                        font-family: $font-family-PT;
                     }
                 }
             }
