@@ -2,7 +2,6 @@
   <div id="app">
     <Header></Header>
     <Main></Main>
-    <!-- <SingleCard></SingleCard> -->
     <Footer></Footer>
   </div>
 </template>
@@ -11,7 +10,6 @@
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
-/* import SingleCard from "./components/SingleCard.vue"; */
 
 export default {
   name: "App",
@@ -19,7 +17,6 @@ export default {
     Header,
     Main,
     Footer,
-    /*  SingleCard, */
   },
   data() {
     return {};
@@ -31,8 +28,6 @@ export default {
 @import "styles/header";
 @import "styles/main";
 @import "styles/footer";
-/* @import "styles/singleCard";
-@import "styles/global"; */
 
 #app {
   font-family: "PT Sans Narrow", sans-serif;

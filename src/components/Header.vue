@@ -67,32 +67,5 @@ export default {
 
 
 <style>
-/* @import "./styles/header"; */
-
-/* .my_header {
-  padding: 15px 0px 15px 0px;
-  background-color: rgb(226, 226, 226);
-}
-.my_cont_header {
-  display: flex;
-  margin: auto;
-  max-width: 1140px;
-}
-.logo {
-  width: 70px;
-}
-.my_navbar {
-  display: inline-block;
-  margin-left: auto;
-}
-.my_navbar ul li {
-  display: inline-block;
-  padding: 10px;
-}
-.my_navbar ul li a {
-  color: black;
-  font-size: 11px;
-  text-decoration: none;
-} */
 </style>
 
