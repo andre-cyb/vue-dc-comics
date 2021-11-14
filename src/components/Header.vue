@@ -5,7 +5,12 @@
       <nav class="my_navbar">
         <ul>
           <li v-for="(item, i) in navBarItems" :key="i">
-            <a href="item.href">{{ item.text }}</a>
+            <a
+              href="item.href"
+              @click.prevent="activeElement = i"
+              :class="i === activeElement ? 'active' : ''"
+              >{{ item.text }}</a
+            >
           </li>
         </ul>
       </nav>
@@ -60,6 +65,7 @@ export default {
           href: "#",
         },
       ],
+      activeElement: 0,
     };
   },
 };
