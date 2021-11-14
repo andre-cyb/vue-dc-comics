@@ -1,9 +1,10 @@
 @import "variables";
+
 .my_header{
-    padding: 15px 0px 15px 0px;
     background-color: rgb(226, 226, 226);
     .my_cont_header{
         display: flex;
+        align-items: center;
         margin: auto;
         max-width: $container-width;
         .logo{
@@ -13,9 +14,12 @@
             display: inline-block;
             margin-left: auto;
             ul{
+                margin: 0px;
                 li{
+                    line-height: 85px;
                     display: inline-block;
                     padding: 10px;
+                    position: relative;
                     a{
                         color: black;
                         font-size: $font-size;
@@ -24,6 +28,16 @@
                     }
                     .active{
                         color: $brand-color;
+                    }
+                    .barra{
+                        position: absolute;
+                        height: 5px;
+                        width: 100%;
+                        background-color: $brand-color;
+                        bottom: 0px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        opacity: 0;
                     }
                 }
             }

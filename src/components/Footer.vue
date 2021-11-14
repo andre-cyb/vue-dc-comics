@@ -66,6 +66,7 @@
 <script>
 export default {
   name: "Footer",
+  components: {},
   data() {
     return {
       dcComicMenu: [

@@ -11,6 +11,10 @@
               :class="i === activeElement ? 'active' : ''"
               >{{ item.text }}</a
             >
+            <div
+              class="barra"
+              :style="i === activeElement ? 'opacity: 1' : ''"
+            ></div>
           </li>
         </ul>
       </nav>

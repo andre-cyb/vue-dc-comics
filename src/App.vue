@@ -28,7 +28,6 @@ export default {
 @import "styles/header";
 @import "styles/main";
 @import "styles/footer";
-/* @import "styles/global"; */
 @import "styles/variables";
 
 #app {
